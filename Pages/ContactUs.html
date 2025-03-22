@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Abjima: Software Development Company</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+    <link rel="icon" type="image/png" href="../Assets/Images/abjima-favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navsbar">
+        <div class="navs-image">
+            <a href="../index.html"><img src="../Assets/Images/abjima-logo.png" alt="Abjima Logo"></a>
+        </div>
+        <div class="hamburger">
+            &#9776;
+        </div>
+        <div class="navs-items">
+            <ul class="navs-list">
+                <li class="navs-link"><a href="../index.html">Home </a></li>
+                <li class="navs-link"><a href="./AboutUs.html">About Us </a></li>
+                <li class="navs-link"><a href="">Managed Services </a></li>
+                <li class="navs-link"><a href="">Case Studies </a></li>
+                <li class="navs-link"><a href="./Careers.html">Careers </a></li>
+                <li class="navs-link"><a href="">Blog </a></li>
+                <li class="navs-link"><a href="ContactUs.html">Contact Us </a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Banner Section -->
+    <section class="about-banner text-center py-4">
+        <h2 class="banner-head">Careers</h2>
+        <p class="banner-cont fw-semibold">Home / Careers</p>
+    </section>
+
+    <!-- Form Section -->
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-6  mb-4">
+                <p class="form-heading fs-1 border-start p-3 border-5 border-warning">To make requests for further information, <span class="text-primary fs-1">contact us</span> via our social channels.</p>
+                <p class="form-sub p-3">We just need a couple of hours! No more than 2 working days since receiving your issue ticket.</p>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="card border-0 p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name <sup class="text-danger fs-6">*</sup></label>
+                            <input type="text" class="form-control" name="name" id="name" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email <sup class="text-danger fs-6">*</sup></label>
+                            <input type="email" class="form-control" name="email" id="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="companyname" class="form-label">Company Name</label>
+                            <input type="text" class="form-control" name="companyname" id="companyname">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="number" class="form-label">Phone <sup class="text-danger fs-6">*</sup></label>
+                            <input type="number" class="form-control" name="number" id="number" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="country" class="form-label">Country <sup class="text-danger fs-6">*</sup></label>
+                            <select name="country" id="from-select" class="form-select">
+                                <option value="">Select Country</option>
+                                <option value="US">United States</option>
+                                <option value="CA">Canada</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="AU">Australia</option>
+                                <option value="IN">India</option>
+                                <option value="DE">Germany</option>
+                                <option value="FR">France</option>
+                                <option value="CN">China</option>
+                                <option value="JP">Japan</option>
+                                <option value="BR">Brazil</option>
+                                <option value="ZA">South Africa</option>
+                                <option value="RU">Russia</option>
+                                <option value="MX">Mexico</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message <sup class="text-danger fs-6">*</sup></label>
+                            <textarea name="message" id="message" class="form-control" rows="4" required></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="captcha" class="form-label">CAPTCHA <sup class="text-danger fs-6">*</sup></label>
+                            <div class="row">
+                                <div class="col-12 col-sm-auto mb-2 mb-sm-0">
+                                    <img src="../Assets/Images/Captcha.jpg" alt="CAPTCHA" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-sm">
+                                    <input type="text" class="form-control" name="captcha" id="captcha" required>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-2">
+                                This question is for testing whether you are a human visitor and to prevent automated spam submissions.
+                            </p>
+                        </div>
+                        
+
+                        <div class="text-center">
+                            <button class="btn btn-primary w-100">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- career -->
+     <div class="container-fluid fluid-career">
+        <div class="container career  ">
+            <div class="d-flex main ">
+                <div class="col-md-8  fs-1 fw-semibold">We run all kinds of IT services that vow your success</div>
+                <div class="col-md-4  content ">
+                    <button class="careerbtn1 mb-2 "><i class="fa-regular fa-message"></i> Lets talk</button>
+                    <button class="careerbtn2 mb-2 "><i class="fa-solid fa-circle-exclamation"></i> Get info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container">
+        <div class="d-flex flex-column flex-sm-row justify-content-around py-4 my-4 ">
+            <p>© 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i
+                            class="fa-brands fa-twitter social-media"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i
+                            class="fa-brands fa-facebook-f social-media"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i
+                            class="fa-brands fa-instagram social-media"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><i
+                            class="fa-brands fa-linkedin-in social-media"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

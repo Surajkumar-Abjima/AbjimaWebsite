@@ -1,0 +1,22 @@
+.about-banner{
+    text-align: center;
+    padding: 80px;
+    background:#f6f2ed;
+}
+.banner-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner-cont{
+    letter-spacing: 2px;
+    color: #636363;
+}
+.img-banner{
+    background: #e0d5c8;
+    margin-bottom: 100px;
+}
+.approach-text{
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #858585;
+}
