@@ -1,0 +1,22 @@
+.case-banner {
+    height: 500px;
+    position: relative;
+    background-image: url('../Assets/Images/caseStudy.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+.case-banner div {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(80, 79, 79, 0.5);
+}

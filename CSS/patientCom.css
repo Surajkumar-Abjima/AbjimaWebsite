@@ -1,0 +1,6 @@
+.togglesentance{
+    display: none;
+}
+#toggleBtn:hover{
+    cursor: pointer;
+}
