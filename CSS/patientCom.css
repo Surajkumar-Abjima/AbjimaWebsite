@@ -1,6 +1,99 @@
 .togglesentance{
-    display: none;
+    opacity: 0;
+    max-height: 0px;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, min-height 0.5s ease-in-out;
 }
 #toggleBtn:hover{
     cursor: pointer;
+    color: rgb(13, 110, 253) !important;
+}
+.arrow{
+    cursor: pointer;
+}
+
+.arrow.arrowShow { 
+    transform: rotate(90deg);
+    color: #d2a98e !important; 
+    
+}
+
+.togglesentance.sentanceShow{
+    opacity: 1;
+    max-height: 500px; 
+    
+}
+
+.arrow{
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.arrow:hover{
+    color: rgb(13, 110, 253) !important;
+}
+
+/* 2nd btn */
+.togglesentance1{
+    opacity: 0;
+    max-height: 0px;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, min-height 0.5s ease-in-out;
+}
+#toggleBtn1:hover{
+    cursor: pointer;
+    color: rgb(13, 110, 253) !important;
+}
+.arrow1{
+    cursor: pointer;
+}
+
+.arrow1.arrowShow1 { 
+    transform: rotate(90deg);
+    color: #d2a98e !important; 
+    
+}
+
+.togglesentance1.sentanceShow1{
+    opacity: 1;
+    max-height: 500px; 
+    
+}
+
+.arrow1{
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.arrow1:hover{
+    color: rgb(13, 110, 253) !important;
+}
+
+/* 3rd btn */
+.togglesentance2{
+    opacity: 0;
+    max-height: 0px;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, min-height 0.5s ease-in-out;
+}
+#toggleBtn2:hover{
+    cursor: pointer;
+    color: rgb(13, 110, 253) !important;
+}
+.arrow2{
+    cursor: pointer;
+}
+
+.arrow2.arrowShow2 { 
+    transform: rotate(90deg);
+    color: #d2a98e !important; 
+    
+}
+
+.togglesentance2.sentanceShow2{
+    opacity: 1;
+    max-height: 500px; 
+}
+
+.arrow2{
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.arrow2:hover{
+    color: rgb(13, 110, 253) !important;
 }
